@@ -19,10 +19,12 @@ body {
 .custom-icons {
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 .custom-icons-home {
   width: 56px;
   height: 56px;
+  cursor: pointer;
 }
 .custom-topbar {
   height: 56px;
@@ -32,6 +34,8 @@ body {
   background: #edeff2;
   font-family: Font Awesome;
   font-weight: 700;
+  border: none;
+  outline: none;
 }
 ::placeholder {
   font-family: "Quicksand";
@@ -41,28 +45,45 @@ body {
   line-height: 18px;
   color: #363a45;
 }
-.menus{
-    width: fit-content;
-    margin-top: 150px;
+.menus {
+  width: fit-content;
+  margin-top: 150px;
 }
-.custom-sign-out{
-    width: fit-content;
-    margin-top: 100px;
-    height: fit-content;
+.custom-sign-out {
+  width: fit-content;
+  margin-top: 100px;
+  height: fit-content;
+  cursor: pointer;
 }
-.custom-vertical-split{
-    width: 1px;
-    padding: 0px 15px;
-    background: red;
+.custom-vertical-split {
+  width: 1px;
+  padding: 0px 15px;
+  background: red;
 }
-.custom-topbar-right{
-    width: fit-content;
+.custom-topbar-right {
+  width: fit-content;
 }
-.custom-gmail{
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.custom-gmail {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-gmailnm {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e6778;
+}
+.custom-name {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #484e5c;
 }
