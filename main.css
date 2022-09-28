@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border-radius: 32px;
+  background-color: #f5f6fa;
+}
+.custom-sidebar {
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+.custom-logo {
+  height: 64px;
+  width: 64px;
+}
+.custom-menu {
+  gap: 30px;
+}
+.custom-icons {
+  width: 32px;
+  height: 32px;
+}
+.custom-icons-home {
+  width: 56px;
+  height: 56px;
+}
+.custom-topbar {
+  height: 56px;
+  padding-left: 32px;
+}
+.custom-search-bar input {
+  background: #edeff2;
+  font-family: Font Awesome;
+  font-weight: 700;
+}
+::placeholder {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363a45;
+}
+.menus{
+    width: fit-content;
+    margin-top: 150px;
+}
+.custom-sign-out{
+    width: fit-content;
+    margin-top: 100px;
+    height: fit-content;
+}
+.custom-vertical-split{
+    width: 1px;
+    padding: 0px 15px;
+    background: red;
+}
+.custom-topbar-right{
+    width: fit-content;
+}
+.custom-gmail{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Roboto"
     />
-    <title>Tubestrap</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.jpg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,17 +23,91 @@
       crossorigin="anonymous"
     />
     <title>Marketplace-Dashboard</title>
-</head>
-<body>
-    
-    
+  </head>
+  <body>
+    <div class="container-fluid custom-page d-none d-lg-flex">
+      <div class="row m-0 w-100">
+        <div class="col-1 d-flex flex-column">
+          <div class="custom-sidebar d-none d-lg-flex flex-column align-items-center justify-content-center">
+            <span class="w-100">
+              <img src="assets/logo.svg" alt="mkt" class="custom-logo" />
+            </span>
+            <div class="menus">
+              <ul class="d-flex custom-menu flex-column list-unstyled align-items-center p-0">
+                <li class="custom-icons-home"><img src="assets/home.svg" /></li>
+                <li class="custom-icons"><img src="assets/ph_cube.svg" /></li>
+                <li class="custom-icons">
+                  <img src="assets/ph_compass.svg" />
+                </li>
+                <li class="custom-icons">
+                  <img src="assets/ph_handbag.svg" />
+                </li>
+                <li class="custom-icons"><img src="assets/ph_heart.svg" /></li>
+                <li class="custom-icons">
+                  <img src="assets/ph_clock-clockwise.svg" />
+                </li>
+              </ul>
+            </div>
+            <span class="d-flex align-self-bottom custom-sign-out">
+              <img src="assets/ph_sign-out.svg" >
+            </span>
+          </div>
+        </div>
+        
+        <div class="col-11 d-flex ">
+          <div class="container-fluid">
+            <div class="row m-0 d-flex flex-row justify-content-between">
+              <nav class="navbar custom-topbar col-5 d-none d-lg-block">
+                  <form class="d-flex custom-search-bar" role="search">
+                    <input
+                      class="form-control me-2 fa-font-awesome"
+                      type="search"
+                      placeholder=" &#xf002; Search"
+                      aria-label="Search"
+                    />
+                  </form>                
+              </nav>
+              <section class="d-flex col-7 gap-3 custom-topbar-right justify-content-end align-items-center">
+                <span>
+                  <img src="assets/messageicon.svg" >
+                </span>
+                <span>
+                  <img src="assets/noticon.svg" >
+                </span>
+                <div class="custom-vertical-splt">
 
+                </div>
+                <section class="d-flex gap-2 align-items-center justify-content-center ">
+                  <span>
+                    <img src="assets/gmail.png" class="custom-gmail" >
+                  </span>
+                  <section class="d-flex flex-column gap-2">
+                    <span>
+                      Tobiloba Oluwadare
+                    </span>
+                    <span>
+                      tobidechamp15@gmail.com
+                    </span>
+                  </section>
+                  <span style=" cursor: pointer;">
+                    <img src="assets/ph_caret-down.svg" >
+                  </span>
 
+                </section>
+
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
