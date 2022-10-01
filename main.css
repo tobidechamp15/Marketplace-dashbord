@@ -87,3 +87,45 @@ body {
   line-height: 22px;
   color: #484e5c;
 }
+.custom-mob-menu {
+  width: 24px;
+  height: 18px;
+}
+.custom-mob-page {
+  margin-top: 48px;
+}
+.custom-border {
+  border-radius: 32px;
+}
+.custom-mob-home {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3b3c41;
+}
+.custom-mob-welcome {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #3b3c41;
+}
+.custom-mob-welcome-phrase {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: #97989c;
+}
+.custom-welcome-mob {
+  margin-top: 30px;
+  gap: 8px;
+}
