@@ -1,35 +1,69 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   border-radius: 32px;
   background-color: #f5f6fa;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CCD3E0;
+
+}
+
 .custom-sidebar {
   padding-top: 0;
-  padding-bottom: 0px;
+  padding-bottom: 1rem;
+  position: fixed;
 }
+
 .custom-logo {
   height: 64px;
   width: 64px;
 }
+
 .custom-menu {
   gap: 30px;
 }
+
 .custom-icons {
   width: 32px;
   height: 32px;
   cursor: pointer;
 }
+
 .custom-icons-home {
   width: 56px;
   height: 56px;
   cursor: pointer;
 }
+
 .custom-topbar {
   height: 56px;
-  padding-left: 32px;
+
 }
+
 .custom-search-bar input {
   background: #edeff2;
   font-family: Font Awesome;
@@ -37,6 +71,7 @@ body {
   border: none;
   outline: none;
 }
+
 ::placeholder {
   font-family: "Quicksand";
   font-style: normal;
@@ -45,24 +80,35 @@ body {
   line-height: 18px;
   color: #363a45;
 }
+
 .menus {
   width: fit-content;
   margin-top: 150px;
 }
+
 .custom-sign-out {
   width: fit-content;
   margin-top: 100px;
   height: fit-content;
   cursor: pointer;
 }
+
 .custom-vertical-split {
   width: 1px;
   padding: 0px 15px;
   background: red;
 }
+
 .custom-topbar-right {
   width: fit-content;
+  justify-content: flex-end;
 }
+
+.custom-navbar-right {
+  width: fit-content;
+  align-items: flex-end;
+}
+
 .custom-gmail {
   width: 50px;
   height: 50px;
@@ -71,6 +117,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .custom-gmailnm {
   font-family: "Quicksand";
   font-style: normal;
@@ -79,6 +126,7 @@ body {
   line-height: 18px;
   color: #5e6778;
 }
+
 .custom-name {
   font-family: "Quicksand";
   font-style: normal;
@@ -87,16 +135,20 @@ body {
   line-height: 22px;
   color: #484e5c;
 }
+
 .custom-mob-menu {
   width: 24px;
   height: 18px;
 }
+
 .custom-mob-page {
   margin-top: 48px;
 }
+
 .custom-border {
   border-radius: 32px;
 }
+
 .custom-mob-home {
   font-family: "SF Pro Text";
   font-style: normal;
@@ -107,6 +159,7 @@ body {
   letter-spacing: 1px;
   color: #3b3c41;
 }
+
 .custom-mob-welcome {
   font-family: "SF Pro Text";
   font-style: normal;
@@ -116,6 +169,7 @@ body {
   letter-spacing: 1px;
   color: #3b3c41;
 }
+
 .custom-mob-welcome-phrase {
   font-family: "SF Pro Text";
   font-style: normal;
@@ -125,7 +179,61 @@ body {
   letter-spacing: 1px;
   color: #97989c;
 }
+
 .custom-welcome-mob {
   margin-top: 30px;
   gap: 8px;
+}
+
+.custom-bg {
+  background-color: #F5F6FA;
+}
+
+.custom-today {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #363A45;
+}
+
+.custom-show-more {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363A45;
+  cursor: pointer;
+}
+
+.custom-live-auction {
+  overflow: scroll;
+  background-color: #F5F6FA;
+}
+
+.custom-position {
+  position: fixed;
+  /*display: flex;*/
+  background: #f1efef;
+  /*justify-content: space-between;*/
+  width: inherit;
+  max-width: inherit;
+}
+
+.custom-lorem {
+  margin-top: 160px;
+}
+
+.custom-auction{
+  gap: 24px;
+  margin-bottom: 5px;
+  overflow: scroll;
+}
+
+.custom-content{
+  padding: 185px 369px 24px 24px;
+  background-color: #CCD3E0;
+  margin-top: 32px;
 }
